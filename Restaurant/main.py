@@ -1,7 +1,9 @@
+import sys
+sys.path.append("C:/Users/tobug/Documents/GitHub/Exercise-Inheritance/Restaurant")
 from Restaurant.product import Product
-from Restaurant.food.food import Food
+
 from Restaurant.beverage.beverage import Beverage
-from Restaurant.food.starter import Starter
+
 from Restaurant.food.soup import Soup
 
 product = Product("coffee", 2.5)

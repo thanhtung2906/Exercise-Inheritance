@@ -1,4 +1,5 @@
-from starter import Starter
+import sys
+sys.path.append(r"c:\Users\tobug\Documents\GitHub\Exercise-Inheritance\Restaurant")
+from Restaurant.food.starter import Starter
 class Soup(Starter):
-    def __init__(self, name: str, price: float, gram: float) -> None:
-        super().__init__(name, price, gram)
+    pass
